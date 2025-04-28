@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <style>
-        /* Carousel Banner Styling */
+   
         .carousel-item {
             height: 600px;
         }
@@ -66,7 +66,7 @@
                 <img src="{{ asset('banner/banner2.jpg') }}" class="d-block w-100" alt="Slide 2">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('banner/banner3.jpg') }}" class="d-block w-100" alt="Slide 3">
+                <img src="{{ asset('banner/banner3.jpg') }}"  class="d-block w-100" alt="Slide 3">
             </div>
         </div>
         <!-- Controls -->
@@ -109,7 +109,7 @@
             <!-- Card 3 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="{{ asset('images/orders.jpg') }}" class="card-img-top" alt="Card 3">
+                    <img src="{{ asset('images/orders.jpg') }}" style="height: 80%;" class="card-img-top" alt="Card 3">
                     <div class="card-body">
                         <h5 class="card-title">Orders</h5>
                         <p class="card-text">Track and manage order efficiently and seamlessly.</p>
@@ -132,7 +132,6 @@
 
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-
     
 </body>
 </html>

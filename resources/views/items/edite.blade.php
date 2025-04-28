@@ -3,7 +3,7 @@
 @section('content')
 <div class="container mt-5">
     <h2>Edit Item</h2>
-    <a href="{{ route('items.index') }}" class="btn btn-secondary mb-3">Back</a>
+    <a href="{{ route('items.index') }}" class="mb-3 btn btn-danger">Back</a>
 
     @if ($errors->any())
         <div class="alert alert-danger">

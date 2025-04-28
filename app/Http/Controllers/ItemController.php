@@ -37,7 +37,7 @@ class ItemController extends Controller
     }
 
     public function edit(Item $item){
-        return view('items.edite',compact('items'));
+        return view('items.edite',compact('item'));
         
     }
     // Update an existing item
